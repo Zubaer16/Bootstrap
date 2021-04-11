@@ -3,12 +3,14 @@ html{
 }
 
 body{
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
-
+    font-family: 'Roboto', sans-serif;
 }
+
+/* header starts */
 
 header{
     background-image: url("images/school.jpg");
@@ -17,3 +19,17 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.navbar{
+    padding: 1% 10%;
+    background-image: rgba(0,0,0,0.3);
+}
+
+.banner-container{
+    height: 100vh;
+    /* font-family: 'Handlee', cursive; */
+    
+    
+}
+
+/* header ends */
