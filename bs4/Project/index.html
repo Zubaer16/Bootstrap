@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,32 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- bootstrap cdn -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 
     <!-- fontawesome 5 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" integrity="sha512-KulI0psuJQK8UMpOeiMLDXJtGOZEBm8RZNTyBBHIWqoXoPMFcw+L5AEo0YMpsW8BfiuWrdD1rH6GWGgQBF59Lg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css"
+        integrity="sha512-KulI0psuJQK8UMpOeiMLDXJtGOZEBm8RZNTyBBHIWqoXoPMFcw+L5AEo0YMpsW8BfiuWrdD1rH6GWGgQBF59Lg=="
+        crossorigin="anonymous" />
 
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <div class="container">
         <header>
 
             <nav class="navbar navbar-expand-md">
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span><i class="fas fa-bars navbar-icon"></i></span>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars navbar-icon"></i></span>
                 </button>
 
 
@@ -36,41 +43,214 @@
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link text-center text-md-left" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center text-md-left" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center text-md-left" href="#">Tutorials</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center text-md-left" href="#">Feedback</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    
-                    
-                  </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-center text-md-left" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+
+                    </ul>
                 </div>
-              </nav>
-              
-              <section id="banner">
-                  <div class="banner-container d-flex justify-content-center align-items-center">
-                      <div class="banner-contents text-center">
-                          <h1 class="font-weight-bolder text-white mb-5">Learn Something New!!!</h1>
-                          <button class="btn-lg btn-primary mr-3" onclick="location.href='#tutorial'"><i class="fas fa-play mr-2"></i> Tutorials</button>
-                          <button class="btn-lg btn-primary mr-3" onclick="window.open('https://www.youtube.com/user/ANIS3730')" class="request-callback"><i class="fab fa-youtube mr-2"></i>Subscribe</button>
-                      </div>
-                  </div>
-              </section>
+            </nav>
+
+            <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder text-white mb-5">Learn Something New!!!</h1>
+                        <button class="btn-lg btn-primary mr-3" onclick="location.href='#tutorial'"><i
+                                class="fas fa-play mr-2"></i>
+                            Tutorials</button>
+                        <button class="btn-lg btn-primary mr-3"
+                            onclick="window.open('https://www.youtube.com/user/ANIS3730')" class="request-callback"><i
+                                class="fab fa-youtube mr-2"></i>Subscribe</button>
+                    </div>
+                </div>
+            </section>
 
         </header>
         <main>
 
+            <!-- features starts -->
+            <section id="features" class="text-center">
+                <div class="row">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col ">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi
+                                doloribus eius
+                                tempora voluptatum molestias.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi
+                                doloribus eius
+                                tempora voluptatum molestias.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi
+                                doloribus eius
+                                tempora voluptatum molestias.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- features ends -->
+
+            <!-- about me starts -->
+
+
+            <section id="about-me">
+                <div class="section-title">
+                    <h3 class="text-center">About Me</h3>
+                    <hr class="hr-style" style="border-color: black;">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Anisul Islam</p>
+                            <p>Profession : Computer Science teacher</p>
+                            <p>Current address : Tampare, Finland</p>
+                            <p>Website: <a href="http://www.studywithanis.com" target="blank">www.studywithanis.com</a></p>
+                            <p><a href="https://www.dropbox.com/s/hcrb4xwrvwpicf7/PERSONAL%20INFORMATIONAnisul%20Islam.pdf?dl=0s">
+                                <button class="btn btn-primary">Download CV</button>
+                            
+                            </a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="achieve-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                            <h5 class="font-weight-bolder">Achievements</h5>
+                            <p><span>100% Tution Waiver: </span> Based on excellent academic result in Tampare university Finland</p><br>
+                            <p><span>Public Bank Scholarship: </span> 40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p><br>
+                            <p><span>Silver Button: </span> from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Anisul Islam</p>
+                            <p>Profession : Computer Science teacher</p>
+                            <p>Current address : Tampare, Finland</p>
+                            <p>Website: <a href="http://www.studywithanis.com" target="blank">www.studywithanis.com</a></p>
+                            <p><a href="https://www.dropbox.com/s/hcrb4xwrvwpicf7/PERSONAL%20INFORMATIONAnisul%20Islam.pdf?dl=0s">
+                                <button class="btn btn-primary">Download CV</button>
+                            
+                            </a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="achieve-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                            <h5 class="font-weight-bolder">Achievements</h5>
+                            <p><span>100% Tution Waiver: </span> Based on excellent academic result in Tampare university Finland</p><br>
+                            <p><span>Public Bank Scholarship: </span> 40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p><br>
+                            <p><span>Silver Button: </span> from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="skill-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                            <h5 class="font-weight-bolder">Skills</h5>
+
+                            <table>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>JS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+
+
+            <!-- about me ends -->
+
+            <!-- tutorial section starts -->
+
+            <section></section>
+            
+            <!-- tutorial section ends -->
         </main>
         <footer>
 
@@ -79,8 +259,15 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
