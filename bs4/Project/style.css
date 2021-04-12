@@ -143,3 +143,97 @@ header{
 
 
 /* about me ends */
+
+/* tutorial starts */
+
+
+
+#tutorial{
+    padding: 4% 10%;
+    background: #a3d2ca;
+
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0 ;
+}
+
+.card:hover{
+    transform: scale(1.1) ;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+
+/* tutorial ends */
+
+/* feedback start */
+
+#feedback{
+    padding: 5%;
+    background: #5eaaa8;
+}
+
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+
+/* feedback end */
+
+/* contact starts */
+
+
+#contact{
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+
+.form-group label{
+
+     margin-bottom: 0;
+     font-weight: bold;
+
+}
+
+
+/* contact ends */
+
+/* footer starts */
+
+
+footer{
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a{
+    color: white;
+    margin: 0 10;
+}
+
+footer a:hover{
+    color: black;
+}
+/* footer ends */
+
+@media(max-width:768px){
+    .nav-link{
+        background: rgb(0,0,0,0.7);
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+    }
+}
